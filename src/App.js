@@ -8,30 +8,35 @@ class App extends Component {
   constructor(){
     super()
     this.state = {
-      working : true
+      API:  sample
     };
   }
   handleClick = () => {
-    this.setState({ working: !this.state.working });
+    fetch("https://thesimpsonsquoteapi.glitch.me/quotes")
+      .then(response => response.json())
+      .then(data => { this. setState({ API: data[0]})})
   };
+
   render() {
-    const img = this.state.working ? 'http://pngimg.com/uploads/simpsons/simpsons_PNG92.png' : 'https://i.dlpng.com/static/png/15389_thumb.png';
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className={this.state.working? "App-logo" : "App-logo-stop"} alt="logo" />
           <button onClick={this.handleClick} className="btn">
             SWITCH
           </button>
-        <Quote
-          quote="I believe the children are the future... Unless we stop them now!"
-          character="Homer Simpson"
-          image={img}
-        />
+        <Quote API={this.state.API} />
         </header>
       </div>
     );
   }
 }
+
+const sample = {
+  quote : "I believe the children are the future... Unless we stop them now!",
+  character : "Homer Simpson",
+  image : 'https://i.dlpng.com/static/png/15389_thumb.png'
+}
+
+
 
 export default App;
