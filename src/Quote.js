@@ -1,11 +1,11 @@
 import React from "react";
 
-const Quote = ({ quote, character, image }) => (
+const Quote = ({ API }) => (
   <figure>
-    <img src={image} alt={character} style={{height:300}}/>
+    <img src={API.image} alt={API.character} style={{height:300}}/>
     <figcaption>
-      <blockquote>{quote}</blockquote>
-      <cite>{character}</cite>
+      <blockquote>{API.quote}</blockquote>
+      <cite>{API.character}</cite>
     </figcaption>
   </figure>
 );
