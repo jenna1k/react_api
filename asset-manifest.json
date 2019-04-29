@@ -1,14 +1,13 @@
 {
-  "main.css": "/react_api/static/css/main.0795a504.chunk.css",
-  "main.js": "/react_api/static/js/main.57d5b6a8.chunk.js",
-  "main.js.map": "/react_api/static/js/main.57d5b6a8.chunk.js.map",
-  "runtime~main.js": "/react_api/static/js/runtime~main.d3e109b4.js",
-  "runtime~main.js.map": "/react_api/static/js/runtime~main.d3e109b4.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/react_api/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/react_api/static/js/2.65aa1cca.chunk.js.map",
-  "index.html": "/react_api/index.html",
-  "precache-manifest.10c36d103273eea8376533d94886e24e.js": "/react_api/precache-manifest.10c36d103273eea8376533d94886e24e.js",
-  "service-worker.js": "/react_api/service-worker.js",
-  "static/css/main.0795a504.chunk.css.map": "/react_api/static/css/main.0795a504.chunk.css.map",
-  "static/media/logo.svg": "/react_api/static/media/logo.5d5d9eef.svg"
+  "main.css": "/react-router/static/css/main.c89faf35.chunk.css",
+  "main.js": "/react-router/static/js/main.470ac9ae.chunk.js",
+  "main.js.map": "/react-router/static/js/main.470ac9ae.chunk.js.map",
+  "runtime~main.js": "/react-router/static/js/runtime~main.fdc07815.js",
+  "runtime~main.js.map": "/react-router/static/js/runtime~main.fdc07815.js.map",
+  "static/js/2.20e8d4e7.chunk.js": "/react-router/static/js/2.20e8d4e7.chunk.js",
+  "static/js/2.20e8d4e7.chunk.js.map": "/react-router/static/js/2.20e8d4e7.chunk.js.map",
+  "index.html": "/react-router/index.html",
+  "precache-manifest.b86575dd1cea0f460ec21ae8b0f5fa40.js": "/react-router/precache-manifest.b86575dd1cea0f460ec21ae8b0f5fa40.js",
+  "service-worker.js": "/react-router/service-worker.js",
+  "static/css/main.c89faf35.chunk.css.map": "/react-router/static/css/main.c89faf35.chunk.css.map"
 }
