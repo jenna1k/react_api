@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 import Quote from "./Quote";
@@ -14,7 +13,7 @@ class App extends Component {
   handleClick = () => {
     fetch("https://thesimpsonsquoteapi.glitch.me/quotes")
       .then(response => response.json())
-      .then(data => { this. setState({ API: data[0]})})
+      .then(data => { this.setState({ API: data[0]})})
   };
 
   render() {
